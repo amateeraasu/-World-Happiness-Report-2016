@@ -10,13 +10,6 @@ This project analyzes the 2016 World Happiness dataset to explore the relationsh
 - ✅ Interactive Plotly Dashboard
 - ✅ Narrative storytelling for presentation
 
-## 📁 File Structure
-
-- `notebooks/analysis.ipynb` – Jupyter Notebook with full analysis
-- `dashboard/dashboard.html` – Interactive Plotly dashboard
-- `data/2016.csv` – Dataset used (public, sourced from Kaggle)
-- `visuals/plots/` – Visualizations (optional)
-
 
 ## 📈 Key Insights
 
