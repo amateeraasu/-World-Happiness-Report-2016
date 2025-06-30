@@ -18,8 +18,7 @@ This project analyzes the 2016 World Happiness dataset to explore the relationsh
 - Regional happiness distribution
 - Map of GDP per capita with life expectancy as tooltip
 
-## View the interactive dashboard here: [Dashboard](https://amateeraasu.github.io/WorldHappiness2016/)
-
+## View the interactive dashboard here: [Dashboard](dashboard.html)
 ## 🌐 Data Source
 
 - [World Happiness Report 2016](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-AI0272EN-SkillsNetwork/labs/dataset/2016.csv)  
