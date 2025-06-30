@@ -372,30 +372,3 @@
     </div>
 </body>
 </html>
-"""
-            
-            # Save the dashboard
-            with open('world_happiness_dashboard.html', 'w', encoding='utf-8') as f:
-                f.write(dashboard_html)
-            
-            print("✓ HTML Dashboard created successfully!")
-            print("✓ File saved as: 'world_happiness_dashboard.html'")
-            print("✓ Dashboard includes:")
-            print("  - Executive Summary with key findings")
-            print("  - All 5 interactive visualizations")
-            print("  - Detailed insights for each chart")
-            print("  - Methodology and recommendations")
-            print("  - Professional styling and responsive design")
-            print("\n🎉 Complete data analysis and dashboard generation finished!")
-            
-        else:
-            print(f"⚠️ Insufficient attributes found for analysis.")
-            print(f"Found: {available_attrs}")
-            print(f"Required: {required_attrs}")
-            
-    except Exception as explore_error:
-        print(f"Error during data exploration: {explore_error}")
-        print(f"Please ensure all required libraries are installed: plotly, numpy")
-    
-except Exception as e:
-    print(f"Error during data preparation: {e}")
